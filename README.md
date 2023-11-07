@@ -10,7 +10,7 @@ This project encompasses a comprehensive range of tasks typically encountered in
 * [data](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/data): Includes: 1) [store_sales_raw.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/store_sales_raw.csv), 2) [holidays_events.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/holidays_events.csv), 3) [stores.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/stores.csv)
 * [notebooks](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/notebooks): Includes: 1) [store_sales_forecast.ipynb](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/notebooks/store_sales_forecast.ipynb)
 * [models](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/models): Includes: 1) [sarima_model.joblib](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/models/sarima_model.joblib), 2) [prophet_model.joblib](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/models/prophet_model.joblib)
-* [outputs](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/outputs): Includes: 1) [SARIMA_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/SARIMA_sales_forecast.xlsx), 2) [prophet_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/prophet_sales_forecast.xlsx)
+* [outputs](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/outputs): Includes: 1) [sarima_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/sarima_sales_forecast.xlsx), 2) [prophet_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/prophet_sales_forecast.xlsx)
 
 ## Applications 
 
@@ -44,7 +44,7 @@ Output mapping: The [**store_sales_forecast.ipynb**](/notebooks/store_sales_fore
 8. Train-test split after confirming the data is stationary with D = 1, m = 7
 
 ### Part 3: SARIMA and Facebook Prophet Models with Model-specific Prepping
-Output mapping: The [**store_sales_forecast.ipynb**](/notebooks/store_sales_forecast.ipynb) notebook, the [**[sarima_model.joblib]**](/models/sarima_model.joblib) model, the [**[SARIMA_sales_forecast.xlsx]**](/outputs/SARIMA_sales_forecast.xlsx) forecast outputs, the [**[prophet_model.joblib]**](/models/prophet_model.joblib) model, the [**[prophet_sales_forecast.xlsx]**](/outputs/prophet_sales_forecast.xlsx) forecast outputs.
+Output mapping: The [**store_sales_forecast.ipynb**](/notebooks/store_sales_forecast.ipynb) notebook, the [**[sarima_model.joblib]**](/models/sarima_model.joblib) model, the [**[sarima_sales_forecast.xlsx]**](/outputs/sarima_sales_forecast.xlsx) forecast outputs, the [**[prophet_model.joblib]**](/models/prophet_model.joblib) model, the [**[prophet_sales_forecast.xlsx]**](/outputs/prophet_sales_forecast.xlsx) forecast outputs.
 
 1. SARIMA Model
 
