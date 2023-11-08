@@ -4,7 +4,7 @@
 
 The goal of this project to predict total daily sales of products sold at Favorita stores located in Ecuador. The training data includes dates, store and product information, whether that item was being promoted, as well as the sales numbers. Additional files include supplementary information that may be useful in building the models. Data was adapted from Kaggle.
 
-This project encompasses a comprehensive range of tasks typically encountered in a data science workflow, including data acquisition, feature engineering, data transformation, data visualization & EDA, hypothesis testing, model development, and Tableau deployment.
+This project encompasses a comprehensive range of tasks typically encountered in a data science workflow, including data acquisition, feature engineering, data transformation, data visualization & EDA, hypothesis testing, model development, and Streamlit deployment.
 
 **User Path**:
 * [**data**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/data): Includes: 1) [store_sales_raw.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/store_sales_raw.csv), 2) [holidays_events.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/holidays_events.csv), 3) [stores.csv](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/data/stores.csv)
