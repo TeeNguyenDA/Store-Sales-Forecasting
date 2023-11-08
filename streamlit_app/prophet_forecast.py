@@ -14,7 +14,7 @@ with st.sidebar:
 # Define a function to load data
 @st.cache
 def load_data():
-    df = pd.read_csv('store_sales.csv')
+    df = pd.read_csv('store_sales_raw.csv')
     return df
 
 # Define a function to preprocess data and aggregate by date

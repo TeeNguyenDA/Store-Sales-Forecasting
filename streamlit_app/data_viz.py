@@ -24,13 +24,13 @@ def convert_df_to_csv_string(df):
     return csv_buffer.getvalue()
 
 # Load the 'store_sales_raw.csv' file into a DataFrame
-store_sales_df = pd.read_csv(r'../data/store_sales_raw.csv')
+store_sales_df = pd.read_csv('store_sales_raw.csv')
 
 #  Load the 'holidays_events.csv' file into a DataFrame
-holidays_df = pd.read_csv(r'../data/holidays_events.csv')
+holidays_df = pd.read_csv('holidays_events.csv')
 
 # Load the 'store_df' file into a DataFrame
-store_df = pd.read_csv(r'../data/stores.csv')
+store_df = pd.read_csv('data/stores.csv')
 
 # Convert DataFrames to CSV for download
 store_sales_csv_string = convert_df_to_csv_string(store_sales_df)
