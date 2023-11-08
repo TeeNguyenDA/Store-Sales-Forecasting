@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from fbprophet import Prophet
+from prophet import Prophet
 
 st.set_page_config(page_title='Prophet Forecast', page_icon="🔮")
 
