@@ -11,13 +11,20 @@ This project encompasses a comprehensive range of tasks typically encountered in
 * [**notebooks**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/notebooks): Includes: 1) [store_sales_forecast.ipynb](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/notebooks/store_sales_forecast.ipynb)
 * [**models**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/models): Includes: 1) [sarima_model.joblib](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/models/sarima_model.joblib), 2) [prophet_model.joblib](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/models/prophet_model.joblib)
 * [**outputs**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/outputs): Includes: 1) [SARIMA_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/SARIMA_sales_forecast.xlsx), 2) [prophet_sales_forecast.xlsx](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/outputs/prophet_sales_forecast.xlsx)
+* [**images**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/images): Includes the main visualizations and insights from the EDA and modeling process.
+* [**StoreSalesForecasting_Presentation**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/StoreSalesForecasting_Presentation): A high level presentation about the project & findings.
+* [**streamlit_app**](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/tree/main/streamlit_app): A **work-in-progress** for deployment of the EDA & forecast results to Streamlit.
 
 ## Applications 
 
-Through this project, we can automate the sales forecasting using the SARIMA and Facebook Prophet models for the Favorita stores located in Ecuador. New data time series sales data from this store with similar characteristics can leverage the .joblib models to fit again and forecast the sales.
+Through this project, we can apply Statistical Modeling and Machine Learning for sales forecasting using the SARIMA and Facebook Prophet models for the Favorita stores located in Ecuador. New data time series sales data from this store with similar characteristics can leverage the .joblib models to fit again and forecast the sales.
 
 ## Context
 This project was part of my final capstone project for the Data Science diploma at Lighthouse Labs (Canada), aiming to deliver an end-to-end project.
+
+## High-level workflow
+
+![High-level workflow](image.png)
 
 ## Process in the main [Jupyter Notebook](https://github.com/TeeNguyenDA/Store-Sales-Forecasting/blob/main/notebooks/store_sales_forecast.ipynb)
 
